@@ -290,7 +290,7 @@ section {
 #video {
   position: relative;
   height: 300px;
-  width: 95%;
+  width: 80vw;
   margin: auto;
   margin-bottom: 10px;
 }
@@ -301,4 +301,233 @@ section {
   left: 5%;
   width: 90%;
   height: 90%;
+}
+
+#botaovestibular23 {
+  display: block;
+  background-color: #0187BD;
+  color: white;
+  height: 40px;
+  width: 50vw;
+  margin: 20px auto;
+  border-radius: 100px;
+}
+
+#botaovestibular23 > p {
+  text-align: center;
+  padding-top: 6px;
+  text-transform: uppercase;
+  font: normal 700 1.2em var(--fonteprincipal);
+}
+
+#botaovestibular23:hover {
+  width: 60vw;
+  transition-duration: .3s;
+}
+
+#botaovestibular23:active {
+  background-color: black;
+  color: #0187BD;
+  width: 50vw;
+  transition-duration: .1s;
+}
+
+#quadromec {
+  position: relative;
+  height: 590px;
+  margin: 30px auto;
+}
+
+#fundomec {
+  background: black url('../imagens/cinco.png') center center no-repeat;
+  background-size: 80%;
+  height: 50%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#descmec {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;;
+}
+
+#descmec > h2 {
+  color: white;
+  width: 100%;
+  padding-top: 280px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: auto;
+  font: normal 600 1.2em var(--fonteprincipal);
+  text-transform: uppercase;
+}
+
+#descmec > h3 {
+  color: white;
+  font: normal 600 1em var(--fonteprincipal);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#descmec > p {
+  color: white;
+  text-align: justify;
+  padding: 30px 20px;
+  font: normal 400 1em var(--fonteparagrafo);
+  line-height: 25px;
+  text-indent: 20px;
+}
+
+#subtitulo-destaque {
+  color:rgba(0, 168, 235, 0.6);
+}
+
+#playlabs {
+  height: 2050px;
+  margin-top: 50px;
+}
+
+#playlabs > h2, p {
+  color: white;
+  text-align: center;
+}
+
+#playlabs > h2 {
+  padding: 20px 0px;
+  font: normal 500 2em var(--fonteprincipal);
+  text-transform: uppercase;
+}
+
+#playlabs > p {
+  font: normal 400 1em var(--fonteparagrafo);
+  line-height: 25px;
+}
+
+#labs-destaque {
+  color: #0187BD;
+}
+
+#playlabs > ul {
+  margin-top: 30px;
+}
+
+#playlabs > ul > div {
+  background-color: red;
+  width: 90%;
+  height: 300px;
+  margin: 15px auto;
+}
+
+#wowlab-fundo {
+  background: black url('../imagens/wowlab.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.lab-titulo {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.60);
+  height: 100%;
+}
+
+.lab-titulo > h2 {
+  text-align: center;
+  padding-top: 110px;
+  color: white;
+  font: normal 500 3em var(--fonteprincipal);
+  text-transform: uppercase;
+}
+
+.destaque-lab {
+  color: #0187BD;
+}
+
+#gamedevlab-fundo {
+  background: black url('../imagens/materia.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+#gamedevlab-fundo p {
+  font-size: .9em;
+}
+
+#innovationlab-fundo {
+  background: black url('../imagens/Web_150DPI-5F公区_v1-1120x630.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+#innovationlab-fundo > div > h2 {
+  font-size: 2.5em;
+}
+
+#innovationlab-fundo p {
+  font-size: .9em;
+}
+
+#makerlab-fundo {
+  background: black url('../imagens/main-makerlab.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+#devlab-fundo {
+  background: black url('../imagens/mini_dev_lab_0004.jpg') center  center no-repeat;
+  background-size: cover;
+}
+
+#designlab-fundo {
+  background: black url('../imagens/design-lab.png') center center no-repeat;
+  background-size: cover;
+}
+
+.lab-descricao {
+  position: absolute;
+  color: transparent;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.lab-descricao > h3 {
+  padding: 20px 0px;
+  font: normal 500 2em var(--fonteprincipal);
+  text-transform: uppercase;
+}
+
+.lab-descricao > p {
+  text-align: center;
+  color: transparent;
+  padding: 0px 20px;
+  font: normal 400 1em var(--fonteparagrafo);
+}
+
+.lab-descricao > a {
+  display: block;
+  color: transparent;
+  font: normal 400 1.3em var(--fonteparagrafo);
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+.lab-titulo:hover > .lab-descricao {
+  background-color: #0187BD;
+  transition-duration: .3s;
+}
+
+.lab-titulo:hover > .lab-descricao > h3 {
+  color: black;
+  transition-duration: .3s;
+}
+
+.lab-titulo:hover > .lab-descricao > p {
+  color: black;
+  transition-duration: .3s;
+}
+
+.lab-titulo:hover > .lab-descricao > a {
+  color: black;
+  transition-duration: .3s;
 }
