@@ -524,13 +524,8 @@ section {
   transition-duration: .3s;
 }
 
-#playlabs {
-  border: 1px solid white;
-}
-
 #financiamentos {
-  border: 1px solid white;
-  margin-top: 50px;
+  margin-top: 200px;
   height: 1140px;
 }
 
@@ -635,6 +630,7 @@ section {
   left: 0px;
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 
 #prouni-descricao > h2 {
@@ -694,6 +690,7 @@ section {
   left: 0px;
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 
 #estendido-descricao > h2 {
@@ -745,4 +742,219 @@ section {
 #estendido-descricao:hover > a {
   color: black;
   transition-duration: .2s;
+}
+
+#bolsas-descricao {
+  position: absolute;
+  background-color: transparent;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  cursor: pointer;
+}
+
+#bolsas-descricao > h2 {
+  text-align: center;
+  margin-top: 50px;
+  font: normal 400 2em var(--fonteprincipal);
+  text-transform: uppercase;
+  color: transparent;
+}
+
+#bolsas-descricao > p {
+  font: normal 400 1.2em var(--fonteparagrafo);
+  margin-top: 20px;
+  color: transparent;
+}
+
+#bolsas-descricao > a {
+  display: block;
+  color: transparent;
+  text-align: center;
+  margin-top: 30px;
+  font: normal 400 1.2em var(--fonteparagrafo);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#bolsas-descricao > a:hover {
+  font-size: 1.4em;
+  transition-duration: 0.2s;
+}
+
+#bolsas-descricao:hover {
+  background-color: #0187BD;
+  transition-duration: .2s;
+}
+
+#bolsas-descricao:hover > h2 {
+  color: black;
+  transition-duration: .2s;
+}
+
+#bolsas-descricao:hover > p {
+  color: black;
+  transition-duration: .2s;
+}
+
+#bolsas-descricao:hover > a {
+  color: black;
+  transition-duration: .2s;
+}
+
+#partners {
+  border: 1px solid white;
+  margin-top: 150px;
+}
+
+#partners > h1 {
+  color: white;
+  text-align: center;
+  font: normal 700 2em var(--fonteprincipal);
+  text-transform: uppercase;
+}
+
+#partners > p {
+  font: normal 400 1em var(--fonteparagrafo);
+}
+
+#instituicoes {
+  margin-top: 50px;
+}
+
+#instituicoes > div {
+  border: 1px solid white;
+  display: inline-block;
+  height: 100px;
+  width: 49%;
+}
+
+#amazon {
+  background: black url('../instituições/amazon.png') center center no-repeat;
+  background-size: 90%;
+}
+
+#microsoft {
+  background: black url('../instituições/microsoft-it-academy.png') center center no-repeat;
+  background-size: 90%;
+}
+
+#sap {
+  background: black url('../instituições/sap.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#ibm {
+  background: black url('../instituições/ibm.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#salesforce {
+  background: black url('../instituições/salesforce.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#mapfre {
+  background: black url('../instituições/mapfre.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#cloudera {
+  background: black url('../instituições/cloudera.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#alteryx {
+  background: black url('../instituições/alteryx.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#huawei {
+  background: black url('../instituições/huawei.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#cisco {
+  background: black url('../instituições/cisco.png') center center no-repeat;
+  background-size: 40%;
+}
+
+#idc {
+  background: black url(../instituições/idc.png) center center no-repeat;
+  background-size: 50%;
+}
+
+#itmidia {
+  background: black url('../instituições/it-midia.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#enterasys {
+  background: black url(../instituições/eterasys.png) center center no-repeat;
+  background-size: 50%;
+}
+
+#oracle {
+  background: black url('../instituições/oracle.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#dreamspark {
+  background: black url('../instituições/microsoft-dreamspark.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#strategy {
+  background: black url('../instituições/microstrategy.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#emc {
+  background: black url('../instituições/academic-alliance.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#comptia {
+  background: black url('../instituições/comptia.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#cuoa {
+  background: black url('../instituições/cuoa.png') center center no-repeat;
+  background-size: 30%;
+}
+
+#rational {
+  background: black url('../instituições/rational-software.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#fortinet {
+  background: black url('../instituições/fortinet.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#kaspersky {
+  background: black url('../instituições/novo-kaspersky.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#laverne {
+  background: black url('../instituições/la-verne.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#cliever {
+  background: black url('../instituições/cliever.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#pmp {
+  background: black url('../instituições/pmp.png') center center no-repeat;
+  background-size: 50%;
+}
+
+#live {
+  background: black url('../instituições/live.png') center center no-repeat;
+  background-size: 50%;
 }
