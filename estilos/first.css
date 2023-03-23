@@ -968,13 +968,90 @@ section {
 }
 
 footer {
+  position: relative;
   margin-top: 100px;
-  border: 1px solid white;
-  height: 400px;
+  height: 300px;
+}
+
+footer > p {
+  position: absolute;
+  top: 90%;
+  width: 90%;
+  left: 5%;
 }
 
 footer > div {
-  background-color: red;
   width: 100%;
   height: 200px;
+}
+
+footer > hr {
+  position: absolute;
+  top: 70%;
+  width: 90%;
+  left: 5%;
+  margin-top: 50px;
+}
+
+#logo {
+  font: normal 500 2em var(--fonteprincipal);
+  text-transform: uppercase;
+  color: #0187BD;
+  height: 100px;
+  line-height: 100px;
+  margin-top: 20px;
+}
+
+#links {
+  margin-top: -10px;
+}
+
+#links > p {
+  color: white;
+  font: normal 800 1em var(--fonteprincipal);
+  text-transform: uppercase;
+}
+
+#linkedin {
+  background-color: #0187BD;
+  color: white;
+  font-weight: 400;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#linkedin:hover {
+  border: 2px solid #0187BD;
+  transition-duration: .2s;
+}
+
+#github {
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#github:hover {
+  border: 2px solid white;
+  transition-duration: .2s;
+}
+
+#enderecos {
+  margin-top: 20px;
+}
+
+#linkedin:active {
+  background-color: #001527;
+  border: none;
+  transition-duration: .1s;
+}
+
+#github:active {
+  background-color: black;
+  color: white;
+  border: none;
+  transition-duration: .1s;
 }
